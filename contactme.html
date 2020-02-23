@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Contact Information</title>
+  </head>
+  <body>
+    <h1>My Contact Information</h1>
+    <p>My email: worklinlj@gmail.com</p>
+    <p>My phone: 415-1231234</p>
+    <hr>
+    <!-- <form class="" action="index.html" method="post"> -->
+      <!-- after clicking submit, then we will go back to index.html. because action="index.html" -->
+      <form class="" action="mailto:linlj333@yahoo.com" method="post" enctype="text/plain">
+        <!-- mailto: is a mail anchor;驱动 指向email那里；如果这里直接写linlj333@yahoo.com则会报错； -->
+        <!-- after clicking submit, then send all the Information to this email address. because action="linlj333@yahoo.com" -->
+      <label> Your Name:</label><br>
+      <input type="text" name="yourName" value=""><br>
+      <!-- <input type="color" name="赋予给这变量的名字" value=""><br> -->
+      <!-- <label>Do you want to sign up the email list?</label><br> -->
+      <label>Your Email:</label><br>
+      <!-- <label>Password</label> -->
+      <input type="email" name="yourEmail" value=""><br>
+      <label>Your Message:</label><br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+      <!-- <input type="checkbox" name="" value=""> -->
+      <input type="submit" name="">
+      <!-- sumbit: like a submit button  -->
+
+    </form>
+  </body>
+</html>
